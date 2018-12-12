@@ -4,23 +4,97 @@ Sets up styles for .sidebar-container
 ====================================
 */
 
+/* Set type style for entire webpage */
+
+h1 {
+    font-size: 2.0em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-family: 'Open Sans', sans-serif;
+}
+h3 {
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h5 {
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h6 {
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* .sidebar-logo {
+} */
+
+.guide {
+   padding-top: 25px;
+}
+
 .sidebar-container {
-    background: linear-gradient(#77d0eb,#2497ba);
+    background: linear-gradient(#caebf5,#2497bad4);
     height: 100%;
     position: fixed;
-    padding: 60px;
+    padding: 50px 70px;
     width: 180px; 
 }
 
-nav {
-    top: 0;
+.sidebar-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    color:#043C77;
+    font-style: bold;
+    padding: 5px 0px;
+    margin: 0 auto;
 }
-  
-nav a,
-nav h2 {
+
+nav h3 {
+    font-family: 'Montserrat', sans-serif;
+    color:#043C77;
     display: block;
     position: relative;
+    left: -20px;
     text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #043C77;
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    margin: 0 auto;
+    text-decoration: none;
+    position: relative;
+    left: -20px;
+}
+
+nav a:hover {
+    font-family: 'Montserrat', sans-serif;
+    color:#B27100;
+    font-style: bold;
+    padding: 10px 0px;
+    margin: 0 auto;
+    text-decoration: underline;
 }
 
 /* 
@@ -31,18 +105,18 @@ Sets up styles for .content-container
 
 /* Positions section container in relation to .sidebar-container */
 .section-container {
-    background: yellow;
-    margin-top: 0px;
+    background: white;
+    margin-top: 0 px;
     margin-left: 290px;
-    padding: 30px 30px;
+    padding: 0px 40px;
     height: 100%;
 }
 
 /* Sets max width for content and align content in middle of section-container */
 .content-container {
-   background: lightskyblue;
+   background: white;
    margin: 0 auto;
-   max-width: 850px;
+   max-width: 800px;
 }
 
 /* Sets row behavior using flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
@@ -50,10 +124,12 @@ Sets up styles for .content-container
   width: 100%;
   display: flex;
   /* == sets spacing between elements in */
-  justify-content: none;
+  justify-content: space-between;
   flex-wrap: wrap;
+  /* margin: 15px auto 15px auto; */
   margin-top: 15px;
   margin-bottom: 15px;
+  padding: 0px;
 }
 
 .row-container {
@@ -66,11 +142,181 @@ Sets up styles for .content-container
     margin-bottom: 15px;
 }
 
-.colorBox {
-    height: 100px;
-    width: 100px;
-    background: #f8d353;
+
+.row-container-primary-color {
+    width: 100%;
+    display:flex;
+    /* === sets spacing between elements in */
+    justify-content: initial;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
+
+.colorBox-primary-1 {
+    color: white;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    position: initial;
+    padding: 20px;
+    height: 80px;
+    width: 200px;
+    border-radius: 20px;
+    background: #043C77;
+}
+
+.colorBox-primary-2 {
+    color: white;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding: 20px;
+    height: 80px;
+    width: 200px;
+    border-radius: 20px;
+    background: #B27100;
+}
+
+.row-container-secondary-color-1 {
+    width: 100%;
+    display:flex;
+    /* === sets spacing between elements in */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.row-container-secondary-color-2 {
+    width: 100%;
+    display:flex;
+    /* === sets spacing between elements in */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.colorBox-secondary-1 {
+    color: white;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background: #0E2C4C;
+}
+
+.colorBox-secondary-2 {
+    color: white;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background: #418ECC;
+}
+
+.colorBox-secondary-3 {
+    color: white;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background: #9CCCFF;
+}
+
+.colorBox-secondary-4 {
+    color: white;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background: #FFA100;
+}
+
+.colorBox-secondary-5 {
+    color: white;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background: #111111;
+}
+
+.colorBox-secondary-6 {
+    color: white;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background: #424242;
+}
+
+.colorBox-secondary-7 {
+    color: white;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background: #979797;
+}
+
+.colorBox-secondary-8 {
+    color: black;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background: #DDDDDD;
+}
+
+.colorBox-secondary-9 {
+    color: black;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background: #EEEEEE;
+}
+.colorBox-secondary-10 {
+    color: black;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.4);
+}
+
 
 .row-container-around {
     width: 100%;
@@ -86,6 +332,34 @@ Sets up styles for .content-container
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 10px;
+}
+
+pre {
+    display: block;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    font-family: 'Lato', sans-serif;
+    margin: 1em 0;
+}
+
+.type-faces{
+    font-family: 'Lato', sans-serif;
+}
+
+.type-faces-01{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.type-faces-02{
+    font-family: 'Lato', sans-serif;
+}
+
+.type-faces-03{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 /* 
@@ -141,7 +415,16 @@ BONUS: Sets up styles for mobile breakpoint
 
     /* Sets Type Styles */
     h1 {
-        font-size: 1.6em;
+        font-size: 1.0em;
+        font-family: 'Lato', sans-serif;
+    }
+
+    h2 {
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .type-styles-01 {
+        font-family: 'Lato', sans-serif;
     }
 
 
