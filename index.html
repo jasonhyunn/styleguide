@@ -17,6 +17,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
         <!-- Adds Icons -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- ======== End Links to CSS ======== -->
 </head>
 <!-- ============ Body content ============== -->
@@ -85,34 +86,37 @@
                 </h1>
                 <div class="type-faces">
                     <p> The Department of Education uses the following two typefaces:</p>
-                    <h2 class="type-faces-01">Montserrat</h2>
+                    <h2 class="type-faces-04">Montserrat</h2>
                     <p> Montserrat is to be used for headers.</p>
-                    <h2 class="type-faces-02">Lato</h2>
+                    <h2 class="type-faces-05">Lato</h2>
                     <p> Lato is to be used for subtitle and body.</p>
                 </div>
-                <div class="type-styles">
+                <div class="type-styles-01">
                     <h1 class="type-faces-01" style="font-size:2.5em">H1 - Montserrat Black - 40pt</h1>
                     <h2 class="type-faces-01" style="font-size:2.2em">H2 - Montserrat Black - 35pt</h2>
                     <h3 class="type-faces-01" style="font-size:1.6em">H3 - Montserrat Black - 26pt</h3>
                     <h4 class="type-faces-01" style="font-size:1.3em">H4 - Montserrat Black - 21pt</h4>
                     <h5 class="type-faces-01" style="font-size:1.1em">H5 - Montserrat Black - 18pt</h5>
                     <h6 class="type-faces-01" style="font-size:1.0em">H6 - Montserrat Black - 16pt</h6>
+                </div>
 
-                <div class=type-styles-01">
+                <div class="type-styles-02">
                     <p class="type-faces-03" style="font-size:2.2em">Subtitle 1 - Lato Bold - 35pt</p>
                     <p class="type-faces-03" style="font-size:2.0em">Subtitle 2 - Lato Bold - 32pt</p>
                     <p class="type-faces-03" style="font-size:1.5em">Subtitle 3 - Lato Bold - 24pt</p>
                     <p class="type-faces-03" style="font-size:1.25em">Subtitle 4 - Lato Bold - 20pt</p>
                     <p class="type-faces-03" style="font-size:1.1em">Subtitle 5 - Lato Bold - 17pt</p>
                     <p class="type-faces-03" style="font-size:0.9em">Subtitle 6 - Lato Bold - 15pt</p>
-                
-                <div class=type-styles-03">
+                </div>
+
+                <div class="type-styles-03">
                         <p class="type-faces-02" style="font-size:2.2em">Subtitle 1 - Lato Regular - 35pt</p>
                         <p class="type-faces-02" style="font-size:2.0em">Subtitle 2 - Lato Regular - 32pt</p>
                         <p class="type-faces-02" style="font-size:1.5em">Subtitle 3 - Lato Regular - 24pt</p>
                         <p class="type-faces-02" style="font-size:1.25em">Subtitle 4 - Lato Regular - 20pt</p>
                         <p class="type-faces-02" style="font-size:1.1em">Subtitle 5 - Lato Regular - 17pt</p>
                         <p class="type-faces-02" style="font-size:0.9em">Subtitle 6 - Lato Regular - 15pt</p>
+                </div>
 
                 <br>
                 <section class="code">
@@ -121,6 +125,68 @@
                         <pre class="css-1">
 font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
+
+#Typography {
+    padding-top: 5px;
+}
+pre {
+    display: block;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    font-family: 'Lato', sans-serif;
+    margin: 1em 0;
+}
+
+.type-faces{
+    font-family: 'Lato', sans-serif;
+    margin-top: -20px;
+}
+
+.type-faces-01{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.type-faces-02{
+    font-family: 'Lato', sans-serif;
+    padding-top: 20px;
+}
+
+.type-faces-03{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.type-faces-04{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+
+.type-faces-05{
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+.type-styles-01 {
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.type-styles-02 {
+    padding-bottom: 5px;
+}
+
+.type-styles-03 {
+    padding-bottom: 5px;
+}
+
                         </pre>
                     </div>
                 </section>
@@ -228,7 +294,7 @@ font-family: 'Montserrat', sans-serif;
 
                         <!-- <div class="color-item">
                             <span class="color-shape color-blue">
-
+                                test
                             </span>
                             <p>#00000</p>
                             <p>#00000</p>
@@ -323,39 +389,127 @@ secondary-color-10 {
                         Buttons
                     </h1>
                     <!-- Primary Buttons-->
-                    <div class="row-container">
+                    
+                    <div class="row-container-button">
+                                
                         <button class="button-normal">
                             Normal
                         </button>
+
+        
                         <button class="button-hover">
                             Hover
                         </button>
-                        <button class="button-pressed">
-                            Pressed
+
+        
+                        <button class="button-focus">
+                            Focus
                         </button>
-                        <button class="button-loading">
-                            <i class="fas fa-spinner"></i> Loading
+
+
+                        <button class="button-active">
+                            Active
                         </button>
-                        <button class="button-disable">
+
+                        <!-- <button class="button-active">
+                            <i class="fas fa-spinner"></i> Active
+                        </button> -->
+
+        
+                        <button class="button-disabled">
                             Disabled
                         </button>
+
                     </div>
+
                     <section class="code">
                             <div>
                             <h4>CSS</h4>
                                 <pre>
-/*Primary Colors*/                
-button {
-    background: tomato;
-    height: 40px;
-    width: 120px;
-    border-radius: 4px;
-    padding: 5px;
-    margin: 20px;
+/*Button Style*/              
+.row-container-button {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-button:hover {
-    background: yellow;
+.button-normal {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #418ecc;
+    color: white;
+    text-decoration: none;
+    border: 0px solid #000000;
+}
+
+.button-hover {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: white;
+    color: #418ECC;
+    text-decoration: none;
+    border: 1px solid #418ECC;
+}
+
+.button-focus {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #9CCCFF;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #043C77;
+}
+
+.button-active {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #9CCCFF;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #9CCCFF;
+}
+
+.button-disabled {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #DDDDDD;
+    color:white;
+    text-decoration: none;
+    border: 1px solid #DDDDDD;
 }
   
                                 </pre>
@@ -370,15 +524,71 @@ button:hover {
                 <h1>
                     Icons
                 </h1>
-                <div class="row-container usps-icons">
-                    <i class="fas fa-cubes"></i>
+                <h3>
+                    System Icons
+                </h3>
+                <div class="row-container doed-icons">
+                    <i class="material-icons">close</i>
+                    <i class="material-icons">home</i>
+                    <i class="material-icons">add</i>
+                    <i class="fas fa-minus"></i>
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-chevron-circle-right"></i>
+                    <i class="fas fa-chevron-down"></i>
+                    <i class="fas fa-chevron-right"></i>
+                    <i class="fas fa-chevron-up"></i>
+                    <i class="fas fa-chevron-left"></i>
+                    <ion-icon name="checkmark"></ion-icon>
+                    <i class="fas fa-info-circle"></i>
+                </div>
+
+
+                <h3>
+                    Education Icons
+                </h3>
+
+                <div class="row-container doed-icons">
+                    <i class="material-icons">laptop_chromebook</i>
+                    <i class="material-icons">school</i>
+                    <ion-icon name="bookmarks"></ion-icon>
+                    <i class="fas fa-pencil-alt"></i>
+                    <i class="fab fa-apple"></i>
+                    <i class="fab fa-windows"></i>
+                </div>
+
+                <h3>
+                    Social Media Icons
+                </h3>
+                
+                <div class="row-container doed-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fas fa-rss"></i>
+                </div>
+
+                <h3>
+                    Other Icons
+                </h3>
+
+                <div class="row-container doed-icons">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-hourglass-half"></i>
+                    <i class="far fa-clock"></i>
+                    <i class="far fa-envelope"></i>
+                    <i class="far fa-calendar-times"></i>
+                    <i class="fas fa-users"></i>
+                    <i class="fas fa-print"></i>
+                </div> 
+
+                    <!-- <i class="fas fa-cubes"></i>
                     <i class="fas fa-box"></i>
                     <i class="fas fa-cube"></i>
                     <i class="fas fa-envelope-square"></i>
                     <i class="far fa-envelope"></i>
                     <i class="fas fa-envelope-open-text"></i>
                     <i class="fas fa-fighter-jet"></i>
-                    <i class="fas fa-shipping-fast"></i>
+                    <i class="fas fa-shipping-fast"></i> -->
                 </div>
             </article>
             <hr>
@@ -426,5 +636,6 @@ button:hover {
             <!--=========== End Mobile Nav (Hidden on Desktop) ============ -->
         </div>    
     </section>
+    <script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
 </body>
 </html>

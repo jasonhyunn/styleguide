@@ -7,7 +7,7 @@ Sets up styles for .sidebar-container
 /* Set type style for entire webpage */
 
 h1 {
-    font-size: 2.0em;
+    font-size: 2.5em;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -45,8 +45,12 @@ p {
 
 .guide {
    padding-top: 25px;
+   padding-bottom: 15px;
 }
 
+.margin {
+    padding-top: 5px;
+}
 .sidebar-container {
     background: linear-gradient(#caebf5,#2497bad4);
     height: 100%;
@@ -128,18 +132,17 @@ Sets up styles for .content-container
   flex-wrap: wrap;
   /* margin: 15px auto 15px auto; */
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   padding: 0px;
 }
 
 .row-container {
     width: 100%;
-    display:flex;
-    /* === sets spacing between elements in */
-    justify-content: space-between;
+    display:wrap;
+    justify-content: initial;
     flex-wrap: wrap;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 
@@ -202,9 +205,9 @@ Sets up styles for .content-container
     font-family: 'Lato',sans-serif;
     font-weight: 400;
     position: relative;
-    padding: 20px;
+    padding: 15px;
     height: 80px;
-    width: 80px;
+    width: 90px;
     border-radius: 20px;
     background: #0E2C4C;
 }
@@ -214,9 +217,9 @@ Sets up styles for .content-container
     font-family: 'Lato',sans-serif;
     font-weight: 400;
     position: relative;
-    padding: 20px;
+    padding: 15px;
     height: 80px;
-    width: 80px;
+    width: 90px;
     border-radius: 20px;
     background: #418ECC;
 }
@@ -226,9 +229,9 @@ Sets up styles for .content-container
     font-family: 'Lato',sans-serif;
     font-weight: 400;
     position: relative;
-    padding: 20px;
+    padding: 15px;
     height: 80px;
-    width: 80px;
+    width: 90px;
     border-radius: 20px;
     background: #9CCCFF;
 }
@@ -238,9 +241,9 @@ Sets up styles for .content-container
     font-family: 'Lato',sans-serif;
     font-weight: 400;
     position: relative;
-    padding: 20px;
+    padding: 15px;
     height: 80px;
-    width: 80px;
+    width: 90px;
     border-radius: 20px;
     background: #FFA100;
 }
@@ -250,9 +253,9 @@ Sets up styles for .content-container
     font-family: 'Lato',sans-serif;
     font-weight: 400;
     position: relative;
-    padding: 20px;
+    padding: 15px;
     height: 80px;
-    width: 80px;
+    width: 90px;
     border-radius: 20px;
     background: #111111;
 }
@@ -262,9 +265,9 @@ Sets up styles for .content-container
     font-family: 'Lato',sans-serif;
     font-weight: 400;
     position: relative;
-    padding: 20px;
+    padding: 15px;
     height: 80px;
-    width: 80px;
+    width: 90px;
     border-radius: 20px;
     background: #424242;
 }
@@ -274,9 +277,9 @@ Sets up styles for .content-container
     font-family: 'Lato',sans-serif;
     font-weight: 400;
     position: relative;
-    padding: 20px;
+    padding: 15px;
     height: 80px;
-    width: 80px;
+    width: 90px;
     border-radius: 20px;
     background: #979797;
 }
@@ -286,9 +289,9 @@ Sets up styles for .content-container
     font-family: 'Lato',sans-serif;
     font-weight: 400;
     position: relative;
-    padding: 20px;
+    padding: 15px;
     height: 80px;
-    width: 80px;
+    width: 90px;
     border-radius: 20px;
     background: #DDDDDD;
 }
@@ -298,9 +301,9 @@ Sets up styles for .content-container
     font-family: 'Lato',sans-serif;
     font-weight: 400;
     position: relative;
-    padding: 20px;
+    padding: 15px;
     height: 80px;
-    width: 80px;
+    width: 90px;
     border-radius: 20px;
     background: #EEEEEE;
 }
@@ -309,9 +312,9 @@ Sets up styles for .content-container
     font-family: 'Lato',sans-serif;
     font-weight: 400;
     position: relative;
-    padding: 20px;
+    padding: 15px;
     height: 80px;
-    width: 80px;
+    width: 90px;
     border-radius: 20px;
     background: #FFFFFF;
     box-shadow: 2px 0 10px rgba(0,0,0,0.4);
@@ -334,6 +337,15 @@ Sets up styles for .content-container
     padding: 10px;
 }
 
+/* 
+====================================
+Typography
+====================================
+*/
+
+#Typography {
+    padding-top: 5px;
+}
 pre {
     display: block;
     justify-content: space-between;
@@ -344,6 +356,7 @@ pre {
 
 .type-faces{
     font-family: 'Lato', sans-serif;
+    margin-top: -20px;
 }
 
 .type-faces-01{
@@ -354,6 +367,7 @@ pre {
 
 .type-faces-02{
     font-family: 'Lato', sans-serif;
+    padding-top: 20px;
 }
 
 .type-faces-03{
@@ -361,6 +375,142 @@ pre {
     font-weight: bold;
     letter-spacing: 1px;
 }
+
+.type-faces-04{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+
+.type-faces-05{
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+.type-styles-01 {
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.type-styles-02 {
+    padding-bottom: 5px;
+}
+
+.type-styles-03 {
+    padding-bottom: 5px;
+}
+
+/* 
+====================================
+Buttons
+====================================
+*/
+
+.row-container-button {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.button-normal {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #418ecc;
+    color: white;
+    text-decoration: none;
+    border: 0px solid #000000;
+}
+
+.button-hover {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: white;
+    color: #418ECC;
+    text-decoration: none;
+    border: 1px solid #418ECC;
+}
+
+.button-focus {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #9CCCFF;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #043C77;
+}
+
+.button-active {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #9CCCFF;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #9CCCFF;
+}
+
+.button-disabled {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #DDDDDD;
+    color:white;
+    text-decoration: none;
+    border: 1px solid #DDDDDD;
+}
+
+
+/* 
+====================================
+Buttons
+====================================
+*/
+
+.doed-icons {
+    font-size: 40px;
+    padding-bottom: 30px;
+    margin-top: -10px;
+}
+
+
+
+
 
 /* 
 ====================================
