@@ -68,15 +68,6 @@ Body Style
 /* .row-container-no-wrap {
 } */
 
-/* .row-container {
-    width: 100%;
-    display:wrap;
-    justify-content: initial;
-    flex-wrap: wrap;
-    margin-top: 15px;
-    margin-bottom: 30px;
-} */
-
 
 /* 
 ====================================
@@ -113,6 +104,15 @@ Typography
     font-size:2.5em;
     margin: 20px auto;
 }
+
+.h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    margin: 20px auto;
+}
+
 
 .type-body {
     font-family: 'Lato', sans-serif;
@@ -303,6 +303,133 @@ Typography
 Colors
 ====================================
 */
+
+#Colors {
+    padding: 5px 0px 20px 0px;
+}
+
+.row-container-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.type-color {
+    font-family: 'Lato',sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.color-item {
+    padding: 10px 10px 10px 10px;
+}
+
+.doed-blue-primary {
+    color: white;
+    background: #043C77;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+    text-align: inherit;
+
+}
+
+.doed-orange-primary {
+    color: white;
+    background: #B27100;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+}
+
+.doed-blue-secondary-1 {
+    color: white;
+    background: #0E2C4C;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+}
+
+.doed-blue-secondary-2 {
+    color: white;
+    background: #418ECC;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+}
+
+.doed-blue-secondary-3 {
+    color: black;
+    background: #9CCCFF;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+}
+
+.doed-orange-secondary-1 {
+    color: white;
+    background: #ffa100;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+}
+
+.doed-grey-secondary-1 {
+    color: white;
+    background: #111111;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+}
+
+.doed-grey-secondary-2 {
+    color: white;
+    background: #424242;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+}
+
+.doed-grey-secondary-3 {
+    color: white;
+    background: #979797;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+}
+
+.doed-grey-secondary-4 {
+    color: black;
+    background: #DDDDDD;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+}
+
+.doed-grey-secondary-5 {
+    color: black;
+    background: #EEEEEE;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+}
+
+.doed-grey-secondary-6 {
+    color: black;
+    background: #FFFFFF;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+    box-shadow: 1px 1px 5px #9a9a9a;
+}
+
+
+
+
+
 
 .row-container-primary-color {
     width: 100%;
