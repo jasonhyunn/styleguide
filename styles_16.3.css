@@ -1,150 +1,308 @@
 /* 
 ====================================
-Sets up styles for .sidebar-container 
+Sidebar Navigation
 ====================================
 */
 
-/* Set type style for entire webpage */
-
-h1 {
-    font-size: 2.5em;
-    font-family: 'Open Sans', sans-serif;
-}
-
-h2 {
-    font-size: 1.8em;
-    font-family: 'Open Sans', sans-serif;
-}
-h3 {
-    font-size: 1.5em;
-    font-family: 'Open Sans', sans-serif;
-}
-
-h4 {
-    font-size: 1.25em;
-    font-family: 'Open Sans', sans-serif;
-}
-
-h5 {
-    font-size: 1.1em;
-    font-family: 'Open Sans', sans-serif;
-}
-
-h6 {
-    font-size: 0.9em;
-    font-family: 'Open Sans', sans-serif;
-}
-
-p {
-    font-size: 1.1em;
-    font-family: 'Open Sans', sans-serif;
-}
-
-/* .sidebar-logo {
-} */
-
-.guide {
-   padding-top: 25px;
-   padding-bottom: 15px;
-}
-
-.margin {
-    padding-top: 5px;
-}
 .sidebar-container {
-    background: linear-gradient(#caebf5,#2497bad4);
-    height: 100%;
+    background-color: rgb(238, 238, 238);
+    color: #0E2C4C;
     position: fixed;
-    padding: 50px 70px;
-    width: 180px; 
+	height: 100%;
+    width: 210px; 
+    padding: 40px 35px 35px 35px;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.sidebar-logo {
+    min-width: 100%;
 }
 
 .sidebar-subtitle {
-    font-family: 'Montserrat', sans-serif;
-    color:#043C77;
-    font-style: bold;
-    padding: 5px 0px;
-    margin: 0 auto;
+    font-size: 1.1em;
 }
 
-nav h3 {
-    font-family: 'Montserrat', sans-serif;
-    color:#043C77;
+.sidebar-container a {
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    color: #0E2C4C;
     display: block;
-    position: relative;
-    left: -20px;
-    text-decoration: none;
-    padding-top: 15px;
-    padding-bottom: 0px;
+    line-height: 85%;
 }
 
-nav a {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    color: #043C77;
-    display: flex;
-    justify-content: none;
-    flex-wrap: wrap;
-    padding: 10px 0px;
-    margin: 0 auto;
-    text-decoration: none;
-    position: relative;
-    left: -20px;
-}
-
-nav a:hover {
-    font-family: 'Montserrat', sans-serif;
-    color:#B27100;
-    font-style: bold;
-    padding: 10px 0px;
-    margin: 0 auto;
+.sidebar-container a:hover {
+    color: #B27100;
     text-decoration: underline;
+}
+
+.sidebar-container h2 {
+    margin: 30px 0px 20px 0px;
 }
 
 /* 
 ====================================
-Sets up styles for .content-container 
+Body Style
 ====================================
 */
 
-/* Positions section container in relation to .sidebar-container */
 .section-container {
     background: white;
-    margin-top: 0 px;
-    margin-left: 290px;
-    padding: 0px 40px;
+    margin: 0px 0px 0px 250px;
+    padding: 30px 30px;
     height: 100%;
 }
 
-/* Sets max width for content and align content in middle of section-container */
 .content-container {
-   background: white;
-   margin: 0 auto;
-   max-width: 800px;
+    background: white;
+    margin: 0 auto;
+    min-width: 350px;
+    max-width: 900px;
+    padding: 50px 40px 40px 40px;
 }
 
-/* Sets row behavior using flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-.row-container-no-wrap {
-  width: 100%;
-  display: flex;
-  /* == sets spacing between elements in */
-  justify-content: space-between;
-  flex-wrap: wrap;
-  /* margin: 15px auto 15px auto; */
-  margin-top: 15px;
-  margin-bottom: 40px;
-  padding: 0px;
-}
+/* .row-container-no-wrap {
+} */
 
-.row-container {
+/* .row-container {
     width: 100%;
     display:wrap;
     justify-content: initial;
     flex-wrap: wrap;
     margin-top: 15px;
     margin-bottom: 30px;
+} */
+
+
+/* 
+====================================
+Logos
+====================================
+*/
+
+#Logo {
+    padding: 5px 0px 5px 0px;
 }
 
+.row-container-no-wrap img{
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    max-width:850;
+    height:auto;
+}
+
+
+/* 
+====================================
+Typography
+====================================
+*/
+
+#Typography {
+    padding: 5px 0px 5px 0px;
+}
+
+.h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size:2.5em;
+    margin: 20px auto;
+}
+
+.type-body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    margin: 20px auto;
+}
+
+.type-spacing {
+    margin-bottom: 50px;
+}
+
+/* =========== Montserrat Medium ============ */
+
+.h2-montserrat-medium {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size:2.2em;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+.h2-lato-medium {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size:2.2em;
+    margin-bottom: -10px;
+}
+
+/* =========== Montserrat Black ============ */
+
+.h1-montserrat-black{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size:2.5em;
+    margin: 20px auto;
+}
+
+.h2-montserrat-black{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size:2.2em;
+    margin: 20px auto;
+}
+
+.h3-montserrat-black{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size:1.6em;
+    margin: 20px auto;
+}
+
+.h4-montserrat-black{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size:1.3em;
+    margin: 20px auto;
+}
+
+.h5-montserrat-black{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size:1.1em;
+    margin: 20px auto;
+}
+
+.h6-montserrat-black{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 1.0em;
+    margin: 20px auto;
+}
+
+
+/* =========== Lato Bold ============ */
+
+.h1-lato-bold {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 2.2em;
+    margin: 20px auto;
+}
+
+.h2-lato-bold {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 2.0em;
+    margin: 20px auto;
+}
+
+.h3-lato-bold {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    margin: 20px auto;
+}
+
+.h4-lato-bold {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 1.25em;
+    margin: 20px auto;
+}
+
+.h5-lato-bold {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    margin: 20px auto;
+}
+
+.h6-lato-bold {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    margin: 20px auto;
+}
+
+
+/* =========== Lato Regular ============ */
+
+.h1-lato-regular {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 2.2em;
+    margin: 20px auto;
+}
+
+.h2-lato-regular {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 2.0em;
+    margin: 20px auto;
+}
+
+.h3-lato-regular {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    margin: 20px auto;
+}
+
+.h4-lato-regular {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1.25em;
+    margin: 20px auto;
+}
+
+.h5-lato-regular {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    margin: 20px auto;
+}
+
+.h6-lato-regular {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    margin: 20px auto;
+}
+
+
+/* 
+====================================
+Colors
+====================================
+*/
 
 .row-container-primary-color {
     width: 100%;
@@ -337,71 +495,14 @@ Sets up styles for .content-container
     padding: 10px;
 }
 
-/* 
-====================================
-Typography
-====================================
-*/
 
-#Typography {
-    padding-top: 5px;
-}
-pre {
-    display: block;
-    justify-content: space-between;
-    flex-wrap:wrap;
-    font-family: 'Lato', sans-serif;
-    margin: 1em 0;
-}
-
-.type-faces{
-    font-family: 'Lato', sans-serif;
-    margin-top: -20px;
-}
-
-.type-faces-01{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    letter-spacing: 1px;
-}
-
-.type-faces-02{
-    font-family: 'Lato', sans-serif;
-    padding-top: 20px;
-}
-
-.type-faces-03{
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-.type-faces-04{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    letter-spacing: 1px;
-    padding-top: 20px;
-    margin-bottom: -20px;
-}
-
-.type-faces-05{
-    font-family: 'Lato', sans-serif;
-    padding-top: 30px;
-    margin-bottom: -20px;
-    margin-top: -20px;
-}
-
-.type-styles-01 {
-    padding-bottom: 5px;
-    padding-top: 20px;
-}
-
-.type-styles-02 {
-    padding-bottom: 5px;
-}
-
-.type-styles-03 {
-    padding-bottom: 5px;
+.color {
+    display: inline-block;
+    min-width: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 50%;
+    padding: 25px 0px 10px 15px;
 }
 
 /* 

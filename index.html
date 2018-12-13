@@ -6,19 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <!-- ======== Links to CSS ========= -->
-        <!-- Resets CSS -->
         <link rel="stylesheet" href="normalize.css">
-        <!-- Resets CSS from 16.3 -->
         <link rel="stylesheet" href="styles_16.3.css">
-        <!-- Adds Google Font -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
-        <!-- Adds Icons -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- ======== End Links to CSS ======== -->
 </head>
 <!-- ============ Body content ============== -->
 <body>
@@ -29,186 +23,97 @@
     -->
     <aside>
         <nav class="sidebar-container">
-            <!--Logo -->
-            <a href="index.html" ><img class="sidebar-logo" src="images/logo/DOED-logo-dark.png"></a>
-            <!--Name of Government Agency -->
-            <!-- <p class="sidebar-subtitle"> Government Agency Content Style Guide<p> -->
-            <h3> Style Guide </h3>
-            <!-- <h3> Government Agency Content Style Guide </h2> -->
-            <!--Anchor Links-->
+            <img class="sidebar-logo" src="images/logo/DOED-logo-dark.png" alt="Agency logo" width="90%">
+            <p class="sidebar-subtitle"> Government Agency Content Style Guide<p>
+            <h2>Style Guide</h2>
             <a href="#Guidelines" >Guidelines</a>
-            <a href="#Logo" >Logo Rules</a>
+            <a href="#Logos" >Logo Rules</a>
             <a href="#Typography" >Typography</a>
-            <a href="#Color" >Color</a>
+            <a href="#Colors" >Color</a>
             <a href="#Buttons" >Buttons</a>
-            <a href="#Icons" >Icons</a>
+            <a href="#Iconography" >Icons</a>
             <a href="#Imagery" >Imagery</a>
             <a href="#Footer" >Footer</a>
         </nav>
     </aside>
+
     <!-- 
     ======================
     Style Guide Content
     ======================
     -->
+
     <section class="section-container">
-        <!--Content Container-->
         <div class="content-container">
             <!--=========== Guidelines Section ============ -->
             <article id="Guidelines" class="guide">
-                <!--Header-->
-                <h1>
-                    Welcome to the USPS Government Agency Guidelines
-                </h1>
-                <!--Copy-->
-                <p>The User Interface Style Guide is here to help maintain your brand across multiple platforms (desktop, tablet, mobile, ios, android, etc) and across multiple markets. Constant iteration requires both an efficient workflow and a well defined collection of core UI elements that can be assembled quickly. Reinventing the wheel is out and standards are in.</p>  
+                <h1 class="h1">Welcome to the DOED Guidelines</h1>
+                <p class="type-body">The U.S. Department of Education mission is to promote student achievement and preparation for global competitiveness by fostering educational excellence and ensuring equal access.</p>
             </article>
             <hr>
             <!--=========== End Guidelines Section ============ -->
 
             <!--=========== Logo Section ============ -->
             <article id="Logo" class="margin">
-                <h1>
-                    Logo
-                </h1>
-                <div class="row-container-no-wrap ">
-                    <img src="images/logo/DOED-logo-large-full.png" class="section-logo">
-                    <img src="images/logo/DOED-logo-large-white.png" class="section-logo">
+                <h1 class="h1">Logos</h1>
+                <div class="row-container-no-wrap">
+                    <img src="images/logo/DOED-logo-large-full.png" alt="doed-logo" width="850" height="288">
+                    <img src="images/logo/DOED-logo-large-white.png" alt="doed-logo" width="768" height="238">
                 </div>
             </article>
-            <hr>
+        <hr>
             <!--=========== End Logo Section ============ -->
 
             <!--=========== Typography Section ============ -->
             <article id="Typography">
-                <h1>
-                    Typography
-                </h1>
-                <div class="type-faces">
-                    <p> The Department of Education uses the following two typefaces:</p>
-                    <h2 class="type-faces-04">Montserrat</h2>
-                    <p> Montserrat is to be used for headers.</p>
-                    <h2 class="type-faces-05">Lato</h2>
-                    <p> Lato is to be used for subtitle and body.</p>
-                </div>
-                <div class="type-styles-01">
-                    <h1 class="type-faces-01" style="font-size:2.5em">H1 - Montserrat Black - 40pt</h1>
-                    <h2 class="type-faces-01" style="font-size:2.2em">H2 - Montserrat Black - 35pt</h2>
-                    <h3 class="type-faces-01" style="font-size:1.6em">H3 - Montserrat Black - 26pt</h3>
-                    <h4 class="type-faces-01" style="font-size:1.3em">H4 - Montserrat Black - 21pt</h4>
-                    <h5 class="type-faces-01" style="font-size:1.1em">H5 - Montserrat Black - 18pt</h5>
-                    <h6 class="type-faces-01" style="font-size:1.0em">H6 - Montserrat Black - 16pt</h6>
+                <h1 class="h1">Typography</h1>
+
+                <div class="type-spacing">
+                    <h2 class="h2-montserrat-medium">Montserrat</h2>
+                    <p class="type-body"> Montserrat is to be used for headers.</p>
+                    <h2 class="h2-lato-medium">Lato</h2>
+                    <p class="type-body"> Lato is to be used for subtitle and body.</p>
                 </div>
 
-                <div class="type-styles-02">
-                    <p class="type-faces-03" style="font-size:2.2em">Subtitle 1 - Lato Bold - 35pt</p>
-                    <p class="type-faces-03" style="font-size:2.0em">Subtitle 2 - Lato Bold - 32pt</p>
-                    <p class="type-faces-03" style="font-size:1.5em">Subtitle 3 - Lato Bold - 24pt</p>
-                    <p class="type-faces-03" style="font-size:1.25em">Subtitle 4 - Lato Bold - 20pt</p>
-                    <p class="type-faces-03" style="font-size:1.1em">Subtitle 5 - Lato Bold - 17pt</p>
-                    <p class="type-faces-03" style="font-size:0.9em">Subtitle 6 - Lato Bold - 15pt</p>
+                <div class="type-spacing">
+                    <h1 class="h1-montserrat-black">H1 - Montserrat Black - 40pt</h1>
+                    <h2 class="h2-montserrat-black">H2 - Montserrat Black - 35pt</h2>
+                    <h3 class="h3-montserrat-black">H3 - Montserrat Black - 26pt</h3>
+                    <h4 class="h4-montserrat-black">H4 - Montserrat Black - 21pt</h4>
+                    <h5 class="h5-montserrat-black">H5 - Montserrat Black - 18pt</h5>
+                    <h6 class="h6-montserrat-black">H6 - Montserrat Black - 16pt</h6>
                 </div>
 
-                <div class="type-styles-03">
-                        <p class="type-faces-02" style="font-size:2.2em">Subtitle 1 - Lato Regular - 35pt</p>
-                        <p class="type-faces-02" style="font-size:2.0em">Subtitle 2 - Lato Regular - 32pt</p>
-                        <p class="type-faces-02" style="font-size:1.5em">Subtitle 3 - Lato Regular - 24pt</p>
-                        <p class="type-faces-02" style="font-size:1.25em">Subtitle 4 - Lato Regular - 20pt</p>
-                        <p class="type-faces-02" style="font-size:1.1em">Subtitle 5 - Lato Regular - 17pt</p>
-                        <p class="type-faces-02" style="font-size:0.9em">Subtitle 6 - Lato Regular - 15pt</p>
+                <div class="type-spacing">
+                    <p class="h1-lato-bold">Subtitle 1 - Lato Bold - 35pt</p>
+                    <p class="h2-lato-bold">Subtitle 2 - Lato Bold - 32pt</p>
+                    <p class="h3-lato-bold">Subtitle 3 - Lato Bold - 24pt</p>
+                    <p class="h4-lato-bold">Subtitle 4 - Lato Bold - 20pt</p>
+                    <p class="h5-lato-bold">Subtitle 5 - Lato Bold - 17pt</p>
+                    <p class="h6-lato-bold">Subtitle 6 - Lato Bold - 15pt</p>
                 </div>
 
-                <br>
-                <section class="code">
-                    <div>
-                    <h4>CSS</h4>
-                        <pre class="css-1">
-font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;
-
-#Typography {
-    padding-top: 5px;
-}
-pre {
-    display: block;
-    justify-content: space-between;
-    flex-wrap:wrap;
-    font-family: 'Lato', sans-serif;
-    margin: 1em 0;
-}
-
-.type-faces{
-    font-family: 'Lato', sans-serif;
-    margin-top: -20px;
-}
-
-.type-faces-01{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    letter-spacing: 1px;
-}
-
-.type-faces-02{
-    font-family: 'Lato', sans-serif;
-    padding-top: 20px;
-}
-
-.type-faces-03{
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-.type-faces-04{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    letter-spacing: 1px;
-    padding-top: 20px;
-    margin-bottom: -20px;
-}
-
-.type-faces-05{
-    font-family: 'Lato', sans-serif;
-    padding-top: 30px;
-    margin-bottom: -20px;
-    margin-top: -20px;
-}
-
-.type-styles-01 {
-    padding-bottom: 5px;
-    padding-top: 20px;
-}
-
-.type-styles-02 {
-    padding-bottom: 5px;
-}
-
-.type-styles-03 {
-    padding-bottom: 5px;
-}
-
-                        </pre>
-                    </div>
-                </section>
+                <div class="type-spacing">
+                    <p class="h1-lato-regular">Subtitle 1 - Lato Regular - 35pt</p>
+                    <p class="h2-lato-regular">Subtitle 2 - Lato Regular - 32pt</p>
+                    <p class="h3-lato-regular">Subtitle 3 - Lato Regular - 24pt</p>
+                    <p class="h4-lato-regular">Subtitle 4 - Lato Regular - 20pt</p>
+                    <p class="h5-lato-regular">Subtitle 5 - Lato Regular - 17pt</p>
+                    <p class="h6-lato-regular">Subtitle 6 - Lato Regular - 15pt</p>
+                </div>     
             </article>
             <hr>
             <!--=========== End Typography Section ============ -->
 
             <!--=========== Color Section ============ -->
             <article id="Color" class="center">
-                    <h1>
-                        Colors
-                    </h1>
-                    <!-- Primary Colors-->
-                    <h3>
-                        Primary Colors
-                    </h3>
-                    <!--Color Palette / red-->
+                    <h1>Colors</h1>
+                    <h3>Primary Colors</h3>
                     <div class="row-container-primary-color">
                         <div class="color-item">
-                            <!-- <span class="color-shape color-red">
+                            <span class="color-shape color-red">
                            
-                            </span> -->
+                            </span>
                             <p class= "colorBox-primary-1">#043C77</p>
                             <p class= "colorBox-primary-2">#B27100</p>
                         </div>
@@ -321,62 +226,7 @@ pre {
                             <p>#00000</p>
                         </div>
                     </div>     -->
-                    <section class="code">
-                            <div>
-                            <h4>CSS</h4>
-                                <pre>
-/*Primary Colors*/
 
-primary-color-1 {
-    background: #043C77;
-}
-
-primary-color-2 {
-    background: #B27100;
-}
-
-/*Secondary colors*/
-secondary-color-1 {
-    background: #0E2C4C;
-}
-
-secondary-color-2 {
-    background: #418ECC;
-}
-
-secondary-color-3 {
-    background: #9CCCFF;
-}
-
-secondary-color-4 {
-    background: #FFA100;
-}
-
-secondary-color-5 {
-    background: #111111;
-}
-
-secondary-color-6 {
-    background: #424242;
-}
-secondary-color-7 {
-    background: #979797;
-}
-
-secondary-color-8 {
-    background: #DDDDDD;
-}
-
-secondary-color-9 {
-    background: #EEEEEE;
-}
-
-secondary-color-10 {
-    background: #FFFFFF;
-}
-                                </pre>
-                            </div>
-                        </section>
             </article>
             <hr>
             <!--=========== End Color Section ============ -->
@@ -421,102 +271,9 @@ secondary-color-10 {
                         </button>
 
                     </div>
-
-                    <section class="code">
-                            <div>
-                            <h4>CSS</h4>
-                                <pre>
-/*Button Style*/              
-.row-container-button {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.button-normal {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    height: 50px;
-    width: 140px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 30px;
-    background: #418ecc;
-    color: white;
-    text-decoration: none;
-    border: 0px solid #000000;
-}
-
-.button-hover {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    height: 50px;
-    width: 140px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 30px;
-    background: white;
-    color: #418ECC;
-    text-decoration: none;
-    border: 1px solid #418ECC;
-}
-
-.button-focus {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    height: 50px;
-    width: 140px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 30px;
-    background: #9CCCFF;
-    color: white;
-    text-decoration: none;
-    border: 1px solid #043C77;
-}
-
-.button-active {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    height: 50px;
-    width: 140px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 30px;
-    background: #9CCCFF;
-    color: white;
-    text-decoration: none;
-    border: 1px solid #9CCCFF;
-}
-
-.button-disabled {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    height: 50px;
-    width: 140px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 30px;
-    background: #DDDDDD;
-    color:white;
-    text-decoration: none;
-    border: 1px solid #DDDDDD;
-}
-  
-                                </pre>
-                            </div>
-                        </section>
             </article>
             <hr>
+            
             <!--=========== End Color Section ============ -->
 
             <!--=========== Icon Section ============ -->
