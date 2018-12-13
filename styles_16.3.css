@@ -65,10 +65,6 @@ Body Style
     padding: 50px 40px 40px 40px;
 }
 
-/* .row-container-no-wrap {
-} */
-
-
 /* 
 ====================================
 Logos
@@ -85,7 +81,6 @@ Logos
     max-width:850;
     height:auto;
 }
-
 
 /* 
 ====================================
@@ -246,7 +241,6 @@ Typography
     margin: 20px auto;
 }
 
-
 /* =========== Lato Regular ============ */
 
 .h1-lato-regular {
@@ -297,7 +291,6 @@ Typography
     margin: 20px auto;
 }
 
-
 /* 
 ====================================
 Colors
@@ -334,7 +327,6 @@ Colors
     height: 60px;
     width: 200px;
     text-align: inherit;
-
 }
 
 .doed-orange-primary {
@@ -426,211 +418,6 @@ Colors
     box-shadow: 1px 1px 5px #9a9a9a;
 }
 
-
-
-
-
-
-.row-container-primary-color {
-    width: 100%;
-    display:flex;
-    /* === sets spacing between elements in */
-    justify-content: initial;
-    flex-wrap: wrap;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.colorBox-primary-1 {
-    color: white;
-    font-family: 'Lato',sans-serif;
-    font-weight: 400;
-    position: initial;
-    padding: 20px;
-    height: 80px;
-    width: 200px;
-    border-radius: 20px;
-    background: #043C77;
-}
-
-.colorBox-primary-2 {
-    color: white;
-    font-family: 'Lato',sans-serif;
-    font-weight: 400;
-    position: relative;
-    padding: 20px;
-    height: 80px;
-    width: 200px;
-    border-radius: 20px;
-    background: #B27100;
-}
-
-.row-container-secondary-color-1 {
-    width: 100%;
-    display:flex;
-    /* === sets spacing between elements in */
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.row-container-secondary-color-2 {
-    width: 100%;
-    display:flex;
-    /* === sets spacing between elements in */
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.colorBox-secondary-1 {
-    color: white;
-    font-family: 'Lato',sans-serif;
-    font-weight: 400;
-    position: relative;
-    padding: 15px;
-    height: 80px;
-    width: 90px;
-    border-radius: 20px;
-    background: #0E2C4C;
-}
-
-.colorBox-secondary-2 {
-    color: white;
-    font-family: 'Lato',sans-serif;
-    font-weight: 400;
-    position: relative;
-    padding: 15px;
-    height: 80px;
-    width: 90px;
-    border-radius: 20px;
-    background: #418ECC;
-}
-
-.colorBox-secondary-3 {
-    color: white;
-    font-family: 'Lato',sans-serif;
-    font-weight: 400;
-    position: relative;
-    padding: 15px;
-    height: 80px;
-    width: 90px;
-    border-radius: 20px;
-    background: #9CCCFF;
-}
-
-.colorBox-secondary-4 {
-    color: white;
-    font-family: 'Lato',sans-serif;
-    font-weight: 400;
-    position: relative;
-    padding: 15px;
-    height: 80px;
-    width: 90px;
-    border-radius: 20px;
-    background: #FFA100;
-}
-
-.colorBox-secondary-5 {
-    color: white;
-    font-family: 'Lato',sans-serif;
-    font-weight: 400;
-    position: relative;
-    padding: 15px;
-    height: 80px;
-    width: 90px;
-    border-radius: 20px;
-    background: #111111;
-}
-
-.colorBox-secondary-6 {
-    color: white;
-    font-family: 'Lato',sans-serif;
-    font-weight: 400;
-    position: relative;
-    padding: 15px;
-    height: 80px;
-    width: 90px;
-    border-radius: 20px;
-    background: #424242;
-}
-
-.colorBox-secondary-7 {
-    color: white;
-    font-family: 'Lato',sans-serif;
-    font-weight: 400;
-    position: relative;
-    padding: 15px;
-    height: 80px;
-    width: 90px;
-    border-radius: 20px;
-    background: #979797;
-}
-
-.colorBox-secondary-8 {
-    color: black;
-    font-family: 'Lato',sans-serif;
-    font-weight: 400;
-    position: relative;
-    padding: 15px;
-    height: 80px;
-    width: 90px;
-    border-radius: 20px;
-    background: #DDDDDD;
-}
-
-.colorBox-secondary-9 {
-    color: black;
-    font-family: 'Lato',sans-serif;
-    font-weight: 400;
-    position: relative;
-    padding: 15px;
-    height: 80px;
-    width: 90px;
-    border-radius: 20px;
-    background: #EEEEEE;
-}
-.colorBox-secondary-10 {
-    color: black;
-    font-family: 'Lato',sans-serif;
-    font-weight: 400;
-    position: relative;
-    padding: 15px;
-    height: 80px;
-    width: 90px;
-    border-radius: 20px;
-    background: #FFFFFF;
-    box-shadow: 2px 0 10px rgba(0,0,0,0.4);
-}
-
-
-.row-container-around {
-    width: 100%;
-    display: flex;
-    /* === sets spacing between elements in */
-
-    /* justify-content: none;
-    margin-top: 15px;
-    margin-bottom: 15px; */
-
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 10px;
-}
-
-
-.color {
-    display: inline-block;
-    min-width: 200px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 12px;
-    line-height: 50%;
-    padding: 25px 0px 10px 15px;
-}
 
 /* 
 ====================================
