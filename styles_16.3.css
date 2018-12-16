@@ -597,26 +597,18 @@ Imagery
 */
 
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+    padding: 20px 10px 30px 10px;
   }
   
-  div.gallery:hover {
-    border: 1px solid #777;
+  div.gallery img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.719);
   }
   
   div.gallery img {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    min-height: 120px;
   }
   
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-
 /* 
 ====================================
 BONUS: Sets up styles for mobile breakpoint 
@@ -647,7 +639,7 @@ BONUS: Sets up styles for mobile breakpoint
         align-content: center;
         height: 80px;
         margin:0;
-        box-shadow: 0 0 10px rgba(0,0,0,0.4);
+        box-shadow: 0 5 10px rgba(0,0,0,0.4);
        
     }
     /* Sets max width for logos in mobile nav */
