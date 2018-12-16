@@ -12,9 +12,10 @@ Sidebar Navigation
     width: 210px; 
     padding: 40px 35px 35px 35px;
     top: 0;
+    left: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    line-height: 150%;
+    /* line-height: 150%; */
 }
 
 .sidebar-logo {
@@ -53,7 +54,7 @@ Body Style
 .section-container {
     background: white;
     margin: 0px 0px 0px 250px;
-    padding: 30px 30px;
+    padding: 20px 30px;
     height: 100%;
 }
 
@@ -107,7 +108,6 @@ Typography
     font-size: 1.5em;
     margin: 20px auto;
 }
-
 
 .type-body {
     font-family: 'Lato', sans-serif;
@@ -189,7 +189,6 @@ Typography
     font-size: 1.0em;
     margin: 20px auto;
 }
-
 
 /* =========== Lato Bold ============ */
 
@@ -306,118 +305,97 @@ Colors
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-bottom: 10px;
 }
 
-.type-color {
-    font-family: 'Lato',sans-serif;
-    font-weight: 500;
-    font-size: 1.2em;
+.color-item {
+    /* padding: 0px 0px 0px 0px; */
+    padding: 10px 10px 10px 10px;
 }
 
-.color-item {
-    padding: 10px 10px 10px 10px;
+.color {
+    display: inline-block;
+    min-width: 200px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+    line-height: 50%;
+    padding: 30px 0px 15px 25px;
+    border-radius: 10px;
 }
 
 .doed-blue-primary {
     color: white;
     background: #043C77;
-    border-radius: 10px;
-    height: 60px;
-    width: 200px;
-    text-align: inherit;
 }
 
 .doed-orange-primary {
     color: white;
     background: #B27100;
-    border-radius: 10px;
-    height: 60px;
-    width: 200px;
 }
 
 .doed-blue-secondary-1 {
     color: white;
     background: #0E2C4C;
-    border-radius: 10px;
-    height: 60px;
-    width: 200px;
 }
 
 .doed-blue-secondary-2 {
     color: white;
     background: #418ECC;
     border-radius: 10px;
-    height: 60px;
-    width: 200px;
 }
 
 .doed-blue-secondary-3 {
     color: black;
     background: #9CCCFF;
-    border-radius: 10px;
-    height: 60px;
-    width: 200px;
 }
 
 .doed-orange-secondary-1 {
     color: white;
     background: #ffa100;
-    border-radius: 10px;
-    height: 60px;
-    width: 200px;
 }
 
 .doed-grey-secondary-1 {
     color: white;
     background: #111111;
-    border-radius: 10px;
-    height: 60px;
-    width: 200px;
 }
 
 .doed-grey-secondary-2 {
     color: white;
     background: #424242;
-    border-radius: 10px;
-    height: 60px;
-    width: 200px;
 }
 
 .doed-grey-secondary-3 {
     color: white;
     background: #979797;
-    border-radius: 10px;
-    height: 60px;
-    width: 200px;
 }
 
 .doed-grey-secondary-4 {
     color: black;
     background: #DDDDDD;
-    border-radius: 10px;
-    height: 60px;
-    width: 200px;
 }
 
 .doed-grey-secondary-5 {
     color: black;
     background: #EEEEEE;
-    border-radius: 10px;
-    height: 60px;
-    width: 200px;
 }
 
 .doed-grey-secondary-6 {
     color: black;
     background: #FFFFFF;
-    border-radius: 10px;
-    height: 60px;
-    width: 200px;
     box-shadow: 1px 1px 5px #9a9a9a;
 }
 
+
+.row-container-around {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
 
 /* 
 ====================================
@@ -425,20 +403,13 @@ Buttons
 ====================================
 */
 
-.row-container-button {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+/* =========== Primary Buttons ============ */
 
-.button-normal {
+.primary-normal {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
+    font-size:18px;
     height: 50px;
     width: 140px;
     margin-top: 15px;
@@ -446,14 +417,15 @@ Buttons
     border-radius: 30px;
     background: #418ecc;
     color: white;
-    text-decoration: none;
     border: 0px solid #000000;
+    margin: 5px 15px 5px 15px;
 }
 
-.button-hover {
+.primary-hover {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
+    font-size:18px;
     height: 50px;
     width: 140px;
     margin-top: 15px;
@@ -461,29 +433,32 @@ Buttons
     border-radius: 30px;
     background: white;
     color: #418ECC;
-    text-decoration: none;
     border: 1px solid #418ECC;
+    margin: 5px 15px 5px 15px;
 }
 
-.button-focus {
+.primary-focus {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
+    font-size:18px;
     height: 50px;
     width: 140px;
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 30px;
+    background: white;
     background: #9CCCFF;
     color: white;
-    text-decoration: none;
     border: 1px solid #043C77;
+    margin: 5px 15px 5px 15px;
 }
 
-.button-active {
+.primary-active {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
+    font-size:18px;
     height: 50px;
     width: 140px;
     margin-top: 15px;
@@ -491,14 +466,15 @@ Buttons
     border-radius: 30px;
     background: #9CCCFF;
     color: white;
-    text-decoration: none;
     border: 1px solid #9CCCFF;
+    margin: 5px 15px 5px 15px;
 }
 
-.button-disabled {
+.primary-disabled {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
+    font-size:18px;
     height: 50px;
     width: 140px;
     margin-top: 15px;
@@ -506,22 +482,113 @@ Buttons
     border-radius: 30px;
     background: #DDDDDD;
     color:white;
-    text-decoration: none;
     border: 1px solid #DDDDDD;
+    margin: 5px 15px 5px 15px;
 }
 
+/* =========== Secondary Buttons ============ */
+
+.secondary-normal {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size:18px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: transparent;
+    color: 043C77;
+    border: 1px solid #043C77;
+    margin: 5px 15px 20px 15px;
+}
+
+.secondary-hover {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size:18px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #418ECC;
+    color: white;
+    border: 1px solid #418ECC;
+    margin: 5px 15px 20px 15px;
+}
+
+.secondary-focus {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size:18px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #9CCCFF;
+    color: 043C77;
+    border: 1px solid #043C77;
+    margin: 5px 15px 20px 15px;
+}
+
+.secondary-active {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size:18px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #9CCCFF;
+    color: 043C77;
+    border: 1px solid #9CCCFF;
+    margin: 5px 15px 20px 15px;
+}
+
+.secondary-disabled {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size:18px;
+    height: 50px;
+    width: 140px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #DDDDDD;
+    color:white;
+    border: 1px solid #DDDDDD;
+    margin: 5px 15px 20px 15px;
+}
 
 /* 
 ====================================
-Buttons
+Iconography
 ====================================
 */
 
-.doed-icons {
+/* .row-container {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+} */
+
+.doed-icons i{
+    width: 80px;
+    min-height: 50px;
+    display: inline-block;
+    padding: 0px 5px 10px 5px;
+    margin-top: 10px;
     font-size: 40px;
-    padding-bottom: 30px;
-    margin-top: -10px;
-}
+  }
 
 /* 
 ====================================
@@ -549,9 +616,6 @@ div.gallery {
     padding: 15px;
     text-align: center;
   }
-
-
-
 
 /* 
 ====================================

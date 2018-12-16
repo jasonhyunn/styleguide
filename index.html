@@ -1,3 +1,9 @@
+<!-- 
+==========================================
+Department of Education HTML Style Guide 
+==========================================
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- ============ Header content ============== -->
@@ -6,9 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-        <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="styles_16.3.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -16,6 +20,7 @@
 </head>
 <!-- ============ Body content ============== -->
 <body>
+
     <!-- 
     ======================
     Navigation / Sidebar
@@ -42,11 +47,10 @@
     Style Guide Content
     ======================
     -->
-
     <section class="section-container">
         <div class="content-container">
             <!--=========== Guidelines Section ============ -->
-            <article id="Guidelines" class="guide">
+            <article id="Guidelines">
                 <h1 class="h1">Welcome to the DOED Guidelines</h1>
                 <p class="type-body">The U.S. Department of Education mission is to promote student achievement and preparation for global competitiveness by fostering educational excellence and ensuring equal access.</p>
             </article>
@@ -108,9 +112,8 @@
             <!--=========== Color Section ============ -->
             <article id="Colors">
                     <h1 class="h1">Colors</h1>
+
                     <h3 class="h3">Primary Colors</h3>
-
-
                     <div class="row-container-wrap">
                         <div class="color-item">
                             <span class="color doed-blue-primary">
@@ -205,47 +208,35 @@
             <hr>
             
             <!--=========== End Color Section ============ -->
-
-            <!--=========== End Color Section ============ -->
             
             <!--=========== Button Section ============ -->
             <article id="Buttons" class="button">
-                    <h1>
-                        Buttons
-                    </h1>
-                    <!-- Primary Buttons-->
-                    
-                    <div class="row-container-button">
-                                
-                        <button class="button-normal">
-                            Normal
-                        </button>
-
-        
-                        <button class="button-hover">
-                            Hover
-                        </button>
-
-        
-                        <button class="button-focus">
-                            Focus
-                        </button>
-
-
-                        <button class="button-active">
-                            Active
-                        </button>
-
-                        <!-- <button class="button-active">
-                            <i class="fas fa-spinner"></i> Active
-                        </button> -->
-
-        
-                        <button class="button-disabled">
-                            Disabled
-                        </button>
-
+                    <h1 class="h1">Buttons</h1>
+                    <h3 class="h3">Primary Button</h3>
+                    <div class="button-item">
+                        <div class="row-container-wrap">
+                            <button class="primary-normal">Normal</button>
+                            <button class="primary-hover">Hover</button>
+                            <button class="primary-focus">Focus</button>
+                            <button class="primary-active">Active</button>        
+                            <button class="primary-disabled">Disabled</button>
+                        </div>
                     </div>
+                    <br>
+                    <h3 class="h3">Secondary Button</h3>
+                    <div class="button-item">
+                        <div class="row-container-wrap">
+                            <button class="secondary-normal">Normal</button>
+                            <button class="secondary-hover">Hover</button>
+                            <button class="secondary-focus">Focus</button>
+                            <button class="secondary-active">Active</button>        
+                            <button class="secondary-disabled">Disabled</button>
+                        </div>
+                    </div>
+
+
+
+
             </article>
             <hr>
             
@@ -253,12 +244,8 @@
 
             <!--=========== Icon Section ============ -->
             <article id="Icons">
-                <h1>
-                    Icons
-                </h1>
-                <h3>
-                    System Icons
-                </h3>
+                <h1 class="h1">Icons</h1>
+                <h3 class="h3">System Icons</h3>
                 <div class="row-container doed-icons">
                     <i class="material-icons">close</i>
                     <i class="material-icons">home</i>
@@ -270,38 +257,28 @@
                     <i class="fas fa-chevron-right"></i>
                     <i class="fas fa-chevron-up"></i>
                     <i class="fas fa-chevron-left"></i>
-                    <ion-icon name="checkmark"></ion-icon>
+                    <i class="fas fa-check"></i>
                     <i class="fas fa-info-circle"></i>
                 </div>
 
-
-                <h3>
-                    Education Icons
-                </h3>
-
+                <h3 class="h3">Education Icons</h3>
                 <div class="row-container doed-icons">
                     <i class="material-icons">laptop_chromebook</i>
                     <i class="material-icons">school</i>
-                    <ion-icon name="bookmarks"></ion-icon>
+                    <i class="material-icons">collections_bookmark</i>
                     <i class="fas fa-pencil-alt"></i>
                     <i class="fab fa-apple"></i>
                     <i class="fab fa-windows"></i>
                 </div>
 
-                <h3>
-                    Social Media Icons
-                </h3>
-                
+                <h3 class="h3">Social Media Icons</h3>
                 <div class="row-container doed-icons">
                     <i class="fab fa-facebook-f"></i>
                     <i class="fab fa-twitter"></i>
                     <i class="fas fa-rss"></i>
                 </div>
 
-                <h3>
-                    Other Icons
-                </h3>
-
+                <h3 class="h3">Other Icons</h3>
                 <div class="row-container doed-icons">
                     <i class="fas fa-map-marker-alt"></i>
                     <i class="fas fa-search"></i>
@@ -312,27 +289,14 @@
                     <i class="fas fa-users"></i>
                     <i class="fas fa-print"></i>
                 </div> 
-
-                    <!-- <i class="fas fa-cubes"></i>
-                    <i class="fas fa-box"></i>
-                    <i class="fas fa-cube"></i>
-                    <i class="fas fa-envelope-square"></i>
-                    <i class="far fa-envelope"></i>
-                    <i class="fas fa-envelope-open-text"></i>
-                    <i class="fas fa-fighter-jet"></i>
-                    <i class="fas fa-shipping-fast"></i> -->
-                </div>
             </article>
             <hr>
             <!--=========== End Color Section ============ -->
 
             <!--=========== Imagery Section ============ -->
             <article id="Imagery">
-                    <h1>
-                        Imagery
-                    </h1>
+                    <h1 class="h1">Imagery</h1>
                     <div class="row-container-around">
-
                         <div class="gallery">
                                 <a target="" href="images/imagery/betsy_1.jpg">
                                   <img src="images/imagery/betsy_1.jpg" alt="betsy_1" width="300" height="200">
@@ -360,7 +324,6 @@
                                 </a>
                                 <div class="desc">Add a description of the image here</div>
                               </div>
-
                     </div>
                 </article>
                 <hr>
